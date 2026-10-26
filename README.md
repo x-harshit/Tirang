@@ -1,4 +1,4 @@
-# signal-hub
+# TIRANG
 
 A small Node.js backend that connects a **Field App** (many phones) to a **Command Dashboard** (one or a few browsers).
 
