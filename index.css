@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --mil-bg: #090b0e;
+    --mil-panel: #11151c;
+    --mil-panel-hover: #161b24;
+    --mil-border: #222935;
+    --mil-border-active: #3b4657;
+    --mil-text: #e6edf3;
+    --mil-text-muted: #7d8590;
+    --mil-red: #8c2626;
+    --mil-red-border: #b91c1c;
+    --mil-green: #234e32;
+    --mil-green-border: #2e683e;
+    --mil-amber: #5e3b14;
+    --mil-amber-border: #8c5b1c;
+  }
+
+  body {
+    background-color: #090b0e;
+    color: #e6edf3;
+    font-family: 'JetBrains Mono', 'Space Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
+  }
+}
+
+/* Precision Military Scrollbars */
+::-webkit-scrollbar {
+  width: 2px;
+  height: 2px;
+}
+::-webkit-scrollbar-track {
+  background: #090b0e;
+}
+::-webkit-scrollbar-thumb {
+  background: #222935;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3b4657;
+}
+
+/* Military Hairline Grid Utilities */
+.mil-crosshair {
+  background-image: 
+    radial-gradient(circle, #2a3442 1px, transparent 1px);
+  background-size: 16px 16px;
+}

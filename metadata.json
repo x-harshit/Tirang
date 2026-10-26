@@ -1,0 +1,6 @@
+{
+  "name": "Tirang - Tactical Ops Command Center",
+  "description": "Tirang Tactical Operations and Fleet Telemetry Center with live radar, Leaflet night-vision map, encrypted signal feeds, and mission control.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
